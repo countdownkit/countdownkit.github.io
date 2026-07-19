@@ -332,6 +332,7 @@ ${urls.map(u => `  <url><loc>${DOMAIN}${BASE}${u}</loc></url>`).join("\n")}
 fs.writeFileSync(path.join(OUT, "sitemap.xml"), sitemap);
 fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${DOMAIN}${BASE}/sitemap.xml\n`);
 fs.writeFileSync(path.join(OUT, ".nojekyll"), ""); // tell GitHub Pages to skip Jekyll and serve files as-is
+fs.writeFileSync(path.join(OUT, "CNAME"), "countdown.elevatedprogress.com\n"); // GitHub Pages custom domain
 fs.writeFileSync(path.join(OUT, "ads.txt"), "google.com, pub-5580575158570188, DIRECT, f08c47fec0942fa0\n"); // AdSense authorized-sellers file
 // Google Search Console ownership verification (HTML-file method). Must stay present to remain verified.
 fs.writeFileSync(path.join(OUT, "google78307d8185e2853c.html"), "google-site-verification: google78307d8185e2853c.html");

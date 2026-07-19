@@ -1,7 +1,7 @@
 # Days Until — countdownkit
 
 A static site of countdown timers and date tools, generated programmatically to cover a
-large long-tail of date-related search queries. Live at **https://countdownkit.github.io/**.
+large long-tail of date-related search queries. Live at **https://countdown.elevatedprogress.com/** (GitHub Pages origin: countdownkit.github.io).
 
 There is no framework, no database, and no runtime dependencies — a single Node script reads
 a data file and writes ~690 static HTML pages. Countdowns compute live in the browser, so

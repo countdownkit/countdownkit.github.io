@@ -7,7 +7,7 @@ this file is the quick, must-know context.
 
 A zero-dependency static-site generator. `generate.js` reads `data/events.json` + `assets/`
 and writes ~690 HTML pages into `public/`. It's a boring, SEO-driven, AdSense-monetized
-"days until X" site. Live at https://countdownkit.github.io/. Audience is general/US consumers
+"days until X" site. Live at https://countdown.elevatedprogress.com/ (GitHub Pages origin countdownkit.github.io). Audience is general/US consumers
 (not developers) — keep the UI clean, fast, and light; that's deliberate (ad-friendly, low bounce).
 
 ## Deploy — just push
