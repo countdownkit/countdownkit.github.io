@@ -102,7 +102,7 @@ function layout({ title, desc, urlPath, h1, hero, body, useTool }) {
 </main>
 <footer class="site-foot"><div class="wrap">
   <a href="${BASE}/">Home</a><a href="${BASE}/date-calculator/">Date Calculator</a><a href="${BASE}/#all">All Countdowns</a>
-  <span>· ${SITE} — free countdown &amp; date tools. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>.</span>
+  <span>· ${SITE} — free countdown &amp; date tools. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>. · <a href="https://elevatedprogress.com/privacy/">Privacy Policy</a></span>
 </div></footer>
 <script src="${BASE}/countdown.js" defer></script>
 ${useTool ? `<script src="${BASE}/tool.js" defer></script>` : ""}
